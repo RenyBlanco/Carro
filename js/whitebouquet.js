@@ -36,6 +36,7 @@ function ready() {
     .getElementsByClassName("btn-purchase")[0]
     .addEventListener("click", purchaseClicked);
 }
+
 /*remove items second part*/
 function removeCartItem(event) {
   var buttonClicked = event.target;
